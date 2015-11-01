@@ -8,7 +8,7 @@ GAuth
 
 
 A simple application for multi-factor authentication, written in HTML using
-jQuery Mobile, jsSHA, LocalStorage and Application Cache. It implements the 
+jQuery Mobile, jsSHA, LocalStorage and Application Cache. It implements the
 TOTP  (Time-Based One-Time Password) algorithm according to [RFC6238](https://tools.ietf.org/html/rfc6238)
  and has been tested to work with Google Authenticator, Dropbox, Dreamhost,
  Amazon, Linode, Okta and many other services.
@@ -29,7 +29,7 @@ Hosting
 
 To self-host a version of this application you can do so by just serving the files using Apache or nginx. For easy deployment, there is also a server.js node application which can be hosted from a nodejs 0.10-based container. This has been tested on Heroku/Dokku and OpenShift.
 
-An experimental package for deployment on a local machine is availabe from [packager.io](https://packager.io/gh/gbraad/gauth/).
+An experimental package for deployment on a local machine is available from [packager.io](https://packager.io/gh/gbraad/gauth/).
 
 
 Authors
